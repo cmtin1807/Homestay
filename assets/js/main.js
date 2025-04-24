@@ -34,6 +34,8 @@ var theme = {
 
         // preloader
         theme.preloader();
+        theme.splideSlider1();
+
 
     },
 
@@ -162,6 +164,75 @@ var theme = {
         // Testimonial slider
         if (document.querySelector('.testimonial-slider')) {
             new Splide('.testimonial-slider', {
+                perPage: 3,
+                gap: '1rem',
+                speed: 800,
+                type: 'loop',
+                focus: 0,
+                omitEnd: true,
+                breakpoints: {
+                    1200: {
+                        perPage: 2,
+                    },
+                    992: {
+                        perPage: 2,
+                    },
+                    768: {
+                        perPage: 1,
+                    },
+                }
+            }).mount();
+        }
+    },
+
+    splideSlider1: () => {
+
+        // Room slider
+        if (document.querySelector('.room-slider')) {
+            new Splide('.room-slider1', {
+                perPage: 2,
+                gap: '1rem',
+                speed: 800,
+                focus: 0,
+                omitEnd: true,
+                type: 'loop',
+                breakpoints: {
+                    1200: {
+                        gap: '0.75rem',
+                    },
+                    992: {
+                        perPage: 1,
+                    },
+                }
+            }).mount();
+        }
+
+        // Service slider
+        if (document.querySelector('.service-slider')) {
+            new Splide('.service-slider1', {
+                perPage: 3,
+                gap: '1rem',
+                speed: 800,
+                focus: 0,
+                omitEnd: true,
+                type: 'loop',
+                breakpoints: {
+                    1200: {
+                        perPage: 2,
+                    },
+                    992: {
+                        perPage: 2,
+                    },
+                    768: {
+                        perPage: 1,
+                    },
+                }
+            }).mount();
+        }
+
+        // Testimonial slider
+        if (document.querySelector('.testimonial-slider')) {
+            new Splide('.testimonial-slider1', {
                 perPage: 3,
                 gap: '1rem',
                 speed: 800,

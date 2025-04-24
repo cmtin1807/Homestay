@@ -675,6 +675,6 @@ a {
 }
 
 .room-description {
-    color: #555;
     text-indent: 1.5em; /* thụt đầu dòng */
+    font-family: "Times New Roman", sans-serif; !important;
 }
