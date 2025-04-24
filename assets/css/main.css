@@ -633,8 +633,8 @@ a {
 
 .floating-icons {
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 100px;
+    right: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -648,4 +648,33 @@ a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
     animation: pulse 1.5s infinite alternate;
+}
+
+.room-item {
+    background-color: #f8f9fa;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.room-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.room-description {
+    color: #555;
+    text-indent: 1.5em; /* thụt đầu dòng */
 }
