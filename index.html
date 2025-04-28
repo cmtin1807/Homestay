@@ -15,6 +15,7 @@
     <link href="assets/vendors/splide/splide.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <meta name="google-site-verification" content="lYyjaSbNThil9nvYD1wExsktg7U6yMg49GkiMqZ0I8k" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
 </head>
 
@@ -58,7 +59,7 @@
                             <a class="nav-link" href="#about" data-close-offcanvas>About Us</a>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link" href="#roomsSuites" data-close-offcanvas>Rooms & Suites</a>
+                            <a class="nav-link" href="#roomsSuites" data-close-offcanvas>Homes</a>
                         </li>
                         <li class="nav-item me-2">
                             <a class="nav-link" href="#location" data-close-offcanvas>Location</a>
@@ -121,14 +122,14 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
                         <div class="image-wrapper bg-image bg-overlay h-100"
-                             data-image-src="./assets/img/hero/h1.jpg"></div>
+                             data-image-src="./assets/img/gallery2/g2.jpg"></div>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <div class="image-wrapper bg-image bg-overlay h-100" data-image-src="./assets/img/hero/h2.jpg">
+                        <div class="image-wrapper bg-image bg-overlay h-100" data-image-src="./assets/img/gallery2/g4.jpg">
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <div class="image-wrapper bg-image bg-overlay h-100" data-image-src="./assets/img/hero/h3.jpg">
+                        <div class="image-wrapper bg-image bg-overlay h-100" data-image-src="./assets/img/gallery1/g2.jpg">
                         </div>
                     </div>
                 </div>
@@ -166,23 +167,16 @@
                     </div>
                     <div class="mb-5">
                         <p>
-                            Nestled between the vibrant city life and the peaceful Han River, A.T. Home
-                            offers a truly unique stay.
-                            Whether you're visiting for leisure or business, our thoughtfully designed apartments
-                            combine modern comforts with local charm.
-                            With spacious layouts, stunning city views, and smart-home features, you'll feel right at
-                            home from the moment you arrive.
-                            Enjoy world-class amenities, a welcoming atmosphere, and personalized hospitality in the
-                            heart of Danang.
+                            Nestled between the vibrant city and peaceful Han River, we offer a truly unique stay. Whether you're visiting for leisure or business, our thoughtfully designed homes combine comforts with local charm. With spacious layouts, stunning views and smart-home features our homes cater to your every needs- making you feel home away from home.
                         </p>
                     </div>
 
                     <div class="row g-2 g-md-5 mb-4" data-cue="fadeIn" data-show="true"
                          style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
                         <div class="col-6 col-lg-3 col-md-6">
-                            <div class="d-flex flex-column">
-                                <div class="text-primary">
-                                    <i class="hicon hicon-150 hicon-flights-pin mb-4"></i>
+                            <div class="d-flex align-items-center">
+                                <div class="text-primary me-3">
+                                    <i class="fa-solid fa-location-dot fa-2x"></i>
                                 </div>
                                 <div>
                                     <p class="text-uppercase fw-medium ls-2 fsm-2"> Central Location in Danang </p>
@@ -190,9 +184,9 @@
                             </div>
                         </div>
                         <div class="col-6 col-lg-3 col-md-6">
-                            <div class="d-flex flex-column">
-                                <div class="text-primary">
-                                    <i class="hicon hicon-150 hicon-bed mb-4"></i>
+                            <div class="d-flex align-items-center">
+                                <div class="text-primary me-3">
+                                    <i class="fa-solid fa-bed fa-2x"></i>
                                 </div>
                                 <div>
                                     <p class="text-uppercase fw-medium ls-2 fsm-2"> Cozy & Spacious Rooms </p>
@@ -200,19 +194,22 @@
                             </div>
                         </div>
                         <div class="col-6 col-lg-3 col-md-6">
-                            <div class="d-flex flex-column">
-                                <div class="text-primary">
-                                    <i class="hicon hicon-150 hicon-restaurant mb-4"></i>
+                            <div class="d-flex align-items-center">
+                                <div class="text-primary me-3">
+                                    <i class="fa-solid fa-building fa-2x"></i>
+                                    <!-- Icon tòa nhà với kích thước lớn hơn -->
                                 </div>
                                 <div>
-                                    <p class="text-uppercase fw-medium ls-2 fsm-2"> Local & International Cuisine </p>
+                                    <p class="text-uppercase fw-medium ls-2 fsm-2 mb-0">Highrise with city view</p>
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="col-6 col-lg-3 col-md-6">
-                            <div class="d-flex flex-column">
-                                <div class="text-primary">
-                                    <i class="hicon hicon-150 hicon-regular-wedding-venue mb-4"></i>
+                            <div class="d-flex align-items-center">
+                                <div class="text-primary me-3">
+                                    <i class="fa-solid fa-people-roof fa-2x"></i>
                                 </div>
                                 <div>
                                     <p class="text-uppercase fw-medium ls-2 fsm-2"> Family & Long-term Friendly </p>
@@ -223,7 +220,7 @@
 
                     <a href="#roomsSuites" class="btn btn-primary ls-1 text-uppercase">
                         <small>
-                            <span>Rooms & Suites</span>
+                            <span>Homes</span>
                             <i class="hicon hicon-thin-circle-arrow-left"></i>
                         </small>
                     </a>
@@ -1067,11 +1064,90 @@
     <!-- /Facitities -->
 
     <!-- Services -->
+<!--    <section id="services" class="pt-5">-->
+<!--        <div class="container pt-5" data-cues="fadeIn">-->
+<!--            <div class="mb-5 text-center">-->
+<!--                <h2 class="ff-emphasis text-uppercase fw-semibold mb-2 h1">Guests Access</h2>-->
+<!--                <span class="d-block ls-2 text-uppercase fw-normal text-primary">Guests have access to FREE amenities and they are shared with residents of building:</span>-->
+<!--            </div>-->
+<!--            <div class="service-slider splide mb-5">-->
+<!--                <div class="splide__arrows">-->
+<!--                    <button class="splide__arrow splide__arrow&#45;&#45;prev ms-4 ms-md-0">-->
+<!--                        <i class="hicon hicon-edge-arrow-left"></i>-->
+<!--                    </button>-->
+<!--                    <button class="splide__arrow splide__arrow&#45;&#45;next me-4 me-md-0">-->
+<!--                        <i class="hicon hicon-edge-arrow-right"></i>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--                <div class="splide__track">-->
+<!--                    <ul class="splide__list">-->
+<!--                        <li class="splide__slide">-->
+<!--                            <div class="service border-0 text-center mb-2">-->
+<!--                                <img src="./assets/img/service/s1.png" srcset="assets/img/service/s1.png 2x"-->
+<!--                                     class="service-img" alt="" style="height: 320px;width: 420px">-->
+<!--                                <div class="service-body shadow-sm">-->
+<!--                                    <div class="p-0 p-md-3">-->
+<!--                                        <h3 class="h5 text-uppercase ls-1 mb-3">Outdoor pool </h3>-->
+<!--                                        <p class="mb-4">On ground floor; open everyday from 6a.m. to 7p.m. It has deep and shallow ends Pool is unsupervised please use at your own risks.-->
+<!--                                        </p>-->
+<!--                                        <p class="text-danger">**NOTE: Pool may be closed for cleaning/maintenance. During winter/rain season pool may also be closed due to weather condition. In the event of temporary closure guests will be notify.</p>-->
+<!--&lt;!&ndash;                                        <a href="#reservation" class="btn btn-primary ls-1 text-uppercase">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <small>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <i class="hicon hicon-menu-calendar"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <span>Booking</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </small>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </a>&ndash;&gt;-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="splide__slide">-->
+<!--                            <div class="service border-0 text-center mb-2">-->
+<!--                                <img src="./assets/img/service/s2.png" srcset="assets/img/service/s2.png 2x"-->
+<!--                                     class="service-img" alt="" style="height: 320px;width: 420px">-->
+<!--                                <div class="service-body shadow-sm">-->
+<!--                                    <div class="p-0 p-md-3">-->
+<!--                                        <h3 class="h5 text-uppercase ls-1 mb-3">Outdoor common area </h3>-->
+<!--                                        <p class="mb-4">located on 28th floor. You can catch amazing sunset and sunrise or get some outdoor yoga or pilate exercise in this tranquility space. Open 24/7.-->
+<!--                                        </p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="splide__slide">-->
+<!--                            <div class="service border-0 text-center mb-2">-->
+<!--                                <img src="./assets/img/service/s3.png" srcset="assets/img/service/s3.png 2x"-->
+<!--                                     class="service-img" alt="" style="height: 320px;width: 420px">-->
+<!--                                <div class="service-body shadow-sm">-->
+<!--                                    <div class="p-0 p-md-3">-->
+<!--                                        <h3 class="h5 text-uppercase ls-1 mb-3">Outdoor mini kids' </h3>-->
+<!--                                        <p class="mb-4">Outdoor mini kids' play area is on ground floor. A large open space in-front of the building that allows your kids to run or bike around. It's also unsupervised so please watch your kid (s).-->
+<!--                                        </p>-->
+<!--&lt;!&ndash;                                        <a href="#reservation" class="btn btn-primary ls-1 text-uppercase">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <small>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <i class="hicon hicon-menu-calendar"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <span>Booking</span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </small>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </a>&ndash;&gt;-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; /Service slider &ndash;&gt;-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- /Services -->
+
+    <!-- Services -->
     <section id="services" class="pt-5">
         <div class="container pt-5" data-cues="fadeIn">
             <div class="mb-5 text-center">
-                <h2 class="ff-emphasis text-uppercase fw-semibold mb-2 h1">Guests Access</h2>
-                <span class="d-block ls-2 text-uppercase fw-normal text-primary">Guests have access to FREE amenities and they are shared with residents of building:</span>
+                <h2 class="ff-emphasis text-uppercase fw-semibold mb-2 h1">Guests Access: </h2>
+                <span class="d-block ls-2 text-uppercase fw-normal text-primary"></span>
             </div>
             <div class="service-slider splide mb-5">
                 <div class="splide__arrows">
@@ -1086,89 +1162,19 @@
                     <ul class="splide__list">
                         <li class="splide__slide">
                             <div class="service border-0 text-center mb-2">
-                                <img src="./assets/img/service/s1.png" srcset="assets/img/service/s1.png 2x"
-                                     class="service-img" alt="" style="height: 320px;width: 420px">
-                                <div class="service-body shadow-sm">
-                                    <div class="p-0 p-md-3">
-                                        <h3 class="h5 text-uppercase ls-1 mb-3">Outdoor pool </h3>
-                                        <p class="mb-4">On ground floor; open everyday from 6a.m. to 7p.m. It has deep and shallow ends Pool is unsupervised please use at your own risks.
-                                        </p>
-                                        <p class="text-danger">**NOTE: Pool may be closed for cleaning/maintenance. During winter/rain season pool may also be closed due to weather condition. In the event of temporary closure guests will be notify.</p>
-<!--                                        <a href="#reservation" class="btn btn-primary ls-1 text-uppercase">-->
-<!--                                            <small>-->
-<!--                                                <i class="hicon hicon-menu-calendar"></i>-->
-<!--                                                <span>Booking</span>-->
-<!--                                            </small>-->
-<!--                                        </a>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="splide__slide">
-                            <div class="service border-0 text-center mb-2">
-                                <img src="./assets/img/service/s2.png" srcset="assets/img/service/s2.png 2x"
+                                <img src="./assets/img/gallery2/g6.jpg" srcset="assets/img/gallery2/g6.jpg 2x"
                                      class="service-img" alt="" style="height: 320px;width: 420px">
                                 <div class="service-body shadow-sm">
                                     <div class="p-0 p-md-3">
                                         <h3 class="h5 text-uppercase ls-1 mb-3">Outdoor common area </h3>
-                                        <p class="mb-4">located on 28th floor. You can catch amazing sunset and sunrise or get some outdoor yoga or pilate exercise in this tranquility space. Open 24/7.
+                                        <p class="mb-4">Located on 28th floor. You can catch amazing sunset and sunrise
+                                            or get some outdoor yoga or pilate exercise in this tranquility space. Open
+                                            24/7.
                                         </p>
-<!--                                        <a href="#reservation" class="btn btn-primary ls-1 text-uppercase">-->
-<!--                                            <small>-->
-<!--                                                <i class="hicon hicon-menu-calendar"></i>-->
-<!--                                                <span>Booking</span>-->
-<!--                                            </small>-->
-<!--                                        </a>-->
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <li class="splide__slide">
-                            <div class="service border-0 text-center mb-2">
-                                <img src="./assets/img/service/s3.png" srcset="assets/img/service/s3.png 2x"
-                                     class="service-img" alt="" style="height: 320px;width: 420px">
-                                <div class="service-body shadow-sm">
-                                    <div class="p-0 p-md-3">
-                                        <h3 class="h5 text-uppercase ls-1 mb-3">Outdoor mini kids' </h3>
-                                        <p class="mb-4">Outdoor mini kids' play area is on ground floor. A large open space in-front of the building that allows your kids to run or bike around. It's also unsupervised so please watch your kid (s).
-                                        </p>
-<!--                                        <a href="#reservation" class="btn btn-primary ls-1 text-uppercase">-->
-<!--                                            <small>-->
-<!--                                                <i class="hicon hicon-menu-calendar"></i>-->
-<!--                                                <span>Booking</span>-->
-<!--                                            </small>-->
-<!--                                        </a>-->
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-            <!-- /Service slider -->
-        </div>
-    </section>
-    <!-- /Services -->
-
-    <!-- Services -->
-    <section id="services1" class="pt-5">
-        <div class="container pt-5" data-cues="fadeIn">
-            <div class="mb-5 text-center">
-                <h2 class="ff-emphasis text-uppercase fw-semibold mb-2 h1">Other things to Note:</h2>
-                <span class="d-block ls-2 text-uppercase fw-normal text-primary"></span>
-            </div>
-            <div class="service-slider1 splide mb-5">
-                <div class="splide__arrows">
-                    <button class="splide__arrow splide__arrow--prev ms-4 ms-md-0">
-                        <i class="hicon hicon-edge-arrow-left"></i>
-                    </button>
-                    <button class="splide__arrow splide__arrow--next me-4 me-md-0">
-                        <i class="hicon hicon-edge-arrow-right"></i>
-                    </button>
-                </div>
-                <div class="splide__track">
-                    <ul class="splide__list">
                         <li class="splide__slide">
                             <div class="service border-0 text-center mb-2">
                                 <img src="./assets/img/service/a1.png" srcset="assets/img/service/a1.png 2x"
@@ -1261,61 +1267,61 @@
                     <ul class="splide__list">
                         <li class="splide__slide">
                             <div class="testimonial border-0 text-center mb-2">
-                                <img src="./assets/img/avatars/a1.jpg" srcset="assets/img/avatars/a1.jpg 2x"
+                                <img src="./assets/img/avatars/a11.jpg" srcset="assets/img/avatars/a11.jpg 2x"
                                      class="testimonial-img" alt="...">
                                 <div class="testimonial-body bg-white shadow-sm">
                                     <p class="mb-4">
-                                        The homestay was wonderful! The room was clean and fully equipped — we especially loved having a kitchen and washing machine for our family meals.
+                                        다른 에어비엔비 숙소 보다 훨씬 깨끗합니다.
                                     </p>
                                     <span class="fw-normal text-uppercase ls-1 mb-1 fw-medium d-block">
-                                            Ariol Deep
+                                            Changjoo
                                         </span>
-                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">Venice - Italy</span>
+                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">South Korea</span>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="testimonial border-0 text-center mb-2">
-                                <img src="./assets/img/avatars/a2.jpg" srcset="assets/img/avatars/a2.jpg 2x"
+                                <img src="./assets/img/avatars/a12.jpeg" srcset="assets/img/avatars/a12.jpeg 2x"
                                      class="testimonial-img" alt="...">
                                 <div class="testimonial-body bg-white shadow-sm">
                                     <p class="mb-4">
-                                        Perfect location, just a short walk to the Han River and night market. Everything was easily accessible. The host was super friendly and helpful!
-                                    </p>
+                                        Great location with lots of restaurants downstairs. There’s also a toddler friendly play area downstairs. Place was very clean and had nice views of the river/bridge. Tran is such a friendly host and was so helpful and responsive in recommending restaurants and activities to do. Highly recommend!                                    </p>
                                     <span class="fw-normal text-uppercase ls-1 mb-1 fw-medium d-block">
-                                            John Doe
+                                            Anne
                                         </span>
-                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">Paris - France</span>
+                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">USA</span>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="testimonial border-0 text-center mb-2">
-                                <img src="./assets/img/avatars/a5.jpg" srcset="assets/img/avatars/a5.jpg 2x"
-                                     class="testimonial-img" alt="...">
+                                <img src="./assets/img/avatars/a13.jpg" srcset="assets/img/avatars/a13.jpg 2x"
+                                     class="testimonial-img" alt="..." style="height: 80px">
                                 <div class="testimonial-body bg-white shadow-sm">
                                     <p class="mb-4">
-                                        I stayed here for 5 days and was extremely satisfied. Quiet surroundings, modern design, and a lovely balcony view of the city at night.
-                                    </p>
+                                        This is "The Best Apartment that I've ever stay"
+                                        Great Host; clear instructions & very responsive to all my requests
+                                        Apartment;  spotless clean, well designed unit with great views
+                                        Definitely recommended!!!!!                                    </p>
                                     <span class="fw-normal text-uppercase ls-1 mb-1 fw-medium d-block">
-                                            Emily Smith
+                                            Henry
                                         </span>
-                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">New York - USA</span>
+                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">United Kingdom</span>
                                 </div>
                             </div>
                         </li>
                         <li class="splide__slide">
                             <div class="testimonial border-0 text-center mb-2">
-                                <img src="./assets/img/avatars/a3.jpg" srcset="assets/img/avatars/a3.jpg 2x"
+                                <img src="./assets/img/avatars/a14.jpg" srcset="assets/img/avatars/a14.jpg 2x"
                                      class="testimonial-img" alt="...">
                                 <div class="testimonial-body bg-white shadow-sm">
                                     <p class="mb-4">
-                                        Great value for the price. There’s a swimming pool and a kids’ play area — perfect for families with children. We’ll definitely come back!
-                                    </p>
+                                        바다뷰는 아니지만, 강 뷰를 즐길 수 있는 높은 층의 아파트입니다. 특히나 베트남 국경일이라 삼일 내내 불꽃놀이를 볼 수 있었습니다. 트란은 친절하고 세심하게 챙겨주는 호스트입니다. 잘 쉬다 갑니다.                                    </p>
                                     <span class="fw-normal text-uppercase ls-1 mb-1 fw-medium d-block">
-                                            Alex Mark
+                                            Yeochan
                                         </span>
-                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">London - England</span>
+                                    <span class="text-uppercase text-primary ls-1 fsm-6 d-block fw-medium">South Korea</span>
                                 </div>
                             </div>
                         </li>
@@ -1441,7 +1447,7 @@
 
                 </ul>
             </div>
-            <div class="mb-3">Copyright © 2023  A.T. Home. All rights reserved.</div>
+            <div class="mb-3 text-white">Copyright © 2023  A.T. Home. All rights reserved.</div>
             <div class="mb-3">Danang, Son Tra, Vietnam, apartment, condo, home, 3 bedroom, 2 bedroom, city, river, Airbnb, pool, coastal</div>
         </div>
     </div>

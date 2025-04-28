@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* GOOGLE FONTS--- */
-@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 /* ---GOOGLE FONTS */
 
 /* ROOT--- */
@@ -19,7 +19,7 @@
     --bs-link-hover-color-rgb: 152, 47, 47;
     --bs-tertiary-bg: #f5f6f7;
     --bs-tertiary-bg-rgb: 245, 246, 247;
-    --bs-font-sans-serif: "Jost", sans-serif;
+    --bs-font-sans-serif: "Quicksand", sans-serif;
     --bs-body-font-weight: 300;
     --bs-border-radius: 0;
 
@@ -412,7 +412,7 @@ a {
 }
 
 .about .about-body{
-    background-color: white;
+    background-color: #f9f5f0;
     padding: 1.5rem;
 }
 /* ABOUT--- */
@@ -424,7 +424,7 @@ a {
     z-index: 1;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    background-color: var(--bs-body-bg);
+    background-color: #f9f5f0;
 }
 
 @media (max-width: 767.98px) {
@@ -438,7 +438,7 @@ a {
 /* ---LOCATION */
 .location .location-body {
     position: relative;
-    background-color: var(--bs-body-bg);
+    background-color:  #f9f5f0;
     padding: 1.5rem;
     position: relative;
     z-index: 10;
@@ -455,13 +455,13 @@ a {
 
 /* ---FACILITIES */
 .facility-list .facility-item {
-    background-color: var(--bs-body-bg);
+    background-color:  #f9f5f0;
     position: relative;
     margin-top: 32px;
 }
 
 .facility-list .facility-item .facility-icon {
-    background-color: var(--bs-primary);
+    background-color:  #f9f5f0;
     display: inline-flex;
     line-height: 1;
     height: 64px;
@@ -501,7 +501,7 @@ a {
     position: relative;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    background-color: var(--bs-body-bg);
+    background-color:  #f9f5f0;
 }
 
 @media (max-width: 767.98px) {
@@ -526,7 +526,7 @@ a {
     bottom: 0;
     content: '';
     opacity: 0;
-    background-color: rgba(var(--bs-primary-rgb), 0.35);
+    background-color:  #f9f5f0;
     transition: 0.35s all;
     -webkit-transition: 0.35s all;
     -moz-transition: 0.35s all;
@@ -572,7 +572,7 @@ a {
     left: 50%;
     top: 0;
     width: 80px;
-    background-color: white;
+    background-color:  #f9f5f0;
     padding: 3px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -588,7 +588,7 @@ a {
 }
 
 .testimonial .testimonial-body {
-    background-color: white;
+    background-color:  #f9f5f0;
     padding: 1.5rem;
     padding-top: calc(40px + 1.5rem);
 }
@@ -651,7 +651,7 @@ a {
 }
 
 .room-item {
-    background-color: #f8f9fa;
+    background-color:  #f9f5f0;
     border-radius: 16px;
     padding: 20px;
     margin-bottom: 20px;
